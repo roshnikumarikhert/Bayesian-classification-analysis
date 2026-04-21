@@ -15,11 +15,13 @@ Naive Bayes was deliberately selected to:
 I undertook this analysis to investigate how a model forms structured belief from data, not as a computational trick, but as a principled reasoning process. I wanted to examine classification at the level where assumptions, uncertainty, and evidence interact, and to understand how a model behaves when the world it encounters is messier than the theory that defines it.
 Bayesian methods provided the ideal lens for this. They force every step of the workflow to be explicit:
 how prior expectations are set, how likelihoods reshape those expectations, and how each feature contributes to the final posterior decision. Instead of relying on opaque optimisation, this approach allowed me to study the architecture of inference itself.
+
 This work was driven by several deeper questions:
 - How does a model reconcile conflicting or imperfect signals?
 - What happens when theoretical assumptions collide with real‑world data structure?
 - Which features meaningfully shift the model’s internal belief state, and why?
 - Where does uncertainty originate, and how does it propagate through the pipeline?
+  
 By building the entire workflow end‑to‑end, from data preparation and feature diagnostics to posterior interpretation, I could observe how each analytical decision shapes the model’s reasoning. This process helped me move beyond surface‑level performance metrics and focus instead on interpretability, structural clarity, and the causal logic behind predictions.
 Ultimately, I did this to strengthen my ability to think in a statistically disciplined way: to interrogate assumptions, trace information flow, and understand not just what a model predicts, but why it arrives at that conclusion.
 It reflects an interest in modelling that prioritises transparency, principled analysis, and rigorous reasoning over complexity for its own sake.
